@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:300,400,600,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Josefin+Slab:300,400,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap");
 
 * {
   margin: 0;
@@ -54,7 +54,7 @@ body {
   font-weight: 300;
   text-align: center;
   margin: 50px 20px 60px 20px;
-  font-family: 'Josefin Slab', serif;
+  font-family: "Josefin Slab", serif;
 }
 
 .main {
@@ -110,7 +110,7 @@ body {
   font-size: 1.1rem;
   color: white;
   border: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 
   margin-bottom: 0px;
   padding-top: 4px;
@@ -125,7 +125,7 @@ body {
   font-size: 1.1rem;
   color: white;
   border: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 
   margin-bottom: 0px;
   padding-top: 4px;
@@ -140,7 +140,7 @@ body {
   font-size: 1.1rem;
   color: white;
   border: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 
   margin-bottom: 0px;
   padding-top: 4px;
@@ -169,7 +169,7 @@ body {
   min-width: 250px;
   padding: 15px 10px 10px 20px;
   margin-right: 10px;
-  font-family: 'Josefin Sans', serif;
+  font-family: "Josefin Sans", serif;
   font-size: 15px;
   color: #ccc;
   background-color: #1d222b;
@@ -192,7 +192,7 @@ body {
   background-color: rgb(113, 40, 182);
   color: #ccc;
   border: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   border-radius: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
@@ -249,7 +249,7 @@ body {
   background-color: rgb(113, 40, 182);
   color: #ccc;
   border: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   border-radius: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);

@@ -1,23 +1,23 @@
-import React, { useContext } from 'react'
-import { TaskListContext } from '../contexts/TaskListContext'
+import React, { useContext } from "react";
+import { TaskListContext } from "../contexts/TaskListContext";
 
 const Task = ({ task }) => {
-  const { removeTask, findItem } = useContext(TaskListContext)
-  console.log(task)
+  const { removeTask, findItem } = useContext(TaskListContext);
+  console.log(task);
 
   const style1 = {
-    color: 'white',
-  }
+    color: "white",
+  };
 
   const style2 = {
-    color: 'grey',
-  }
+    color: "grey",
+  };
 
   const style3 = {
-    color: 'red',
-  }
+    color: "skyblue",
+  };
   return (
-    <div className="list-item" draggable={true}>
+    <div className="list-item">
       <div className="combine">
         <div style={style1}>{task.title} </div>
         <div className="btnss">
@@ -39,7 +39,7 @@ const Task = ({ task }) => {
       <div style={style2}>{task.description} </div>
       <div style={style3}>{task.dueDate} </div>
     </div>
-  )
-}
+  );
+};
 
-export default Task
+export default Task;
